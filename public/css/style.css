@@ -1,5 +1,7 @@
 /*--  #44A790 jade
 #1F2027 gray
+#999 light gray
+rgba(68, 167, 144, 0.69)
 Author: W3layouts
 Author URL: http://w3layouts.com
 Distributor: http://bootstraptema.ru/
@@ -242,11 +244,11 @@ body a:hover{
 	display:block;
 	font-size:.8em;
 	text-transform:capitalize;
-	color:#999;
+	color:black;
 }
 .banner-info-left p{
 	font-size:14px;
-	color:#999;
+	color: black;
 	margin:1em 0 0;
 	line-height:1.8em;
 }
@@ -515,7 +517,7 @@ body a:hover{
     padding: 1.5em 1em;
     width:30%;
     border-radius: 100%;
-    background:rgba(68, 167, 144, 0.69);
+    background:red;
 }
 .services-grid1-pos h5{
 	font-size:1.5em;
