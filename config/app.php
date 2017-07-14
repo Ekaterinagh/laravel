@@ -134,6 +134,9 @@ return [
     | this array to grant expanded functionality to your applications.
     |
     */
+	
+	'keywords'=> env('APP_KEYWORDS', 'tattoo,piercing,art,body,american'),
+	'description'=> env('APP_DESCRIPTION', 'Tatoo et piercing'),
 
     'providers' => [
 

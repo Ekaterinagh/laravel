@@ -50,7 +50,7 @@
 											</ul>
 										</div>
 										<div class="col-md-4 banner-info-right">
-											<img src="images/1.jpg" alt=" " class="img-responsive" />
+											<img src="images/salon_innocents.jpg" alt=" " class="img-responsive" />
 										</div>
 										<div class="clearfix"> </div>
 									</div>
@@ -69,7 +69,7 @@
 											</ul>
 										</div>
 										<div class="col-md-4 banner-info-right">
-											<img src="images/2.jpg" alt=" " class="img-responsive" />
+											<img src="images/salon_sebastopol.jpg" alt=" " class="img-responsive" />
 										</div>
 										<div class="clearfix"> </div>
 									</div>
@@ -88,7 +88,7 @@
 											</ul>
 										</div>
 										<div class="col-md-4 banner-info-right">
-											<img src="images/3.jpg" alt=" " class="img-responsive" />
+											<img src="images/salon_opera.jpg" alt=" " class="img-responsive" />
 										</div>
 										<div class="clearfix"> </div>
 									</div>
@@ -106,7 +106,7 @@
 											</ul>
 										</div>
 										<div class="col-md-4 banner-info-right">
-											<img src="images/3.jpg" alt=" " class="img-responsive" />
+											<img src="images/salon_magic.jpg" alt=" " class="img-responsive" />
 										</div>
 										<div class="clearfix"> </div>
 									</div>
@@ -124,7 +124,7 @@
 											</ul>
 										</div>
 										<div class="col-md-4 banner-info-right">
-											<img src="images/3.jpg" alt=" " class="img-responsive" />
+											<img src="images/salon_lombard.jpg" alt=" " class="img-responsive" />
 										</div>
 										<div class="clearfix"> </div>
 									</div>
@@ -142,7 +142,7 @@
 											</ul>
 										</div>
 										<div class="col-md-4 banner-info-right">
-											<img src="images/3.jpg" alt=" " class="img-responsive" />
+											<img src="images/salon_rambuteau.jpg" alt=" " class="img-responsive" />
 										</div>
 										<div class="clearfix"> </div>
 									</div>
