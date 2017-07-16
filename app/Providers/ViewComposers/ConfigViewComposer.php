@@ -11,9 +11,12 @@ class ConfigViewComposer{
 		$title=config('app.name');
 		$keywords=config('app.keywords');
 		$description=config('app.description');
-		$view->with('title',$title);
-		$view->with('keywords',$keywords);
-		$view->with('description',$description);
+		$curent_page=$_SERVER['REQUEST_URI'];
+		//echo $curent_page;
+		$view->with('title',$title)
+			 ->with('keywords',$keywords)
+			 ->with('description',$description)
+			 ->with('curent_page',$curent_page);
 	}
 }
 

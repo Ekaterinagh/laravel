@@ -221,13 +221,11 @@ body a:hover{
     width: 70%;
     margin: 15em auto 0;
 }
-.banner-info-left,.banner-info-right{
-	padding:0;
-}
-.banner-info-left{
+
+.banner-info-left {
 	background:#fff;
-	padding:2.2em;
-	margin: 0.09em 0 0;
+	padding: 1em;
+	margin: 0;
 }
 .banner-info-right img {
     border:4px solid red;
@@ -477,6 +475,7 @@ body a:hover{
 }
 .services:before,.about-bottom:before{
 	background: url(../images/5.jpg) no-repeat 0px 0px;
+	background-size:100%;
     display: block;
     width: 100%;
     height: 185px;
@@ -1606,9 +1605,6 @@ h2.typoh2{
 	.services:before, .about-bottom:before {
 		height: 195px;
 	}
-	.banner-info-left {
-		padding: 2.4em;
-	}
 }
 @media (max-width:1600px){
 	.header {
@@ -1655,9 +1651,6 @@ h2.typoh2{
 	.header {
 		min-height: 735px;
 	}
-	.banner-info-left {
-		padding: 3.1em 3em;
-	}
 	.services:before, .about-bottom:before {
 		background: url(../images/5.jpg) no-repeat -135px 0px;
 	}
@@ -1699,9 +1692,7 @@ h2.typoh2{
 		-o-background-size: cover;
 		-ms-background-size: cover;
 	}
-	.banner-info-left {
-		padding: 3em 3em;
-	}
+
 	.sti-menu li {
 		padding: 10px;
 	}

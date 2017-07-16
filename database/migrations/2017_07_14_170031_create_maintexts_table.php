@@ -1,9 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateConversationsTable extends Migration
+class CreateMaintextsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,9 +13,12 @@ class CreateConversationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('conversations', function (Blueprint $table) {
+        Schema::create('maintexts', function (Blueprint $table) {
             $table->increments('id');
-            $table->boolean('private')->default(true);
+			$table->string('name');
+			$table->text('body');
+			$table->string('url');
+			$table->enum('showhide',array('show','hide'))->default('show');
             $table->timestamps();
         });
     }
@@ -26,6 +30,6 @@ class CreateConversationsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('conversations');
+        Schema::dropIfExists('maintexts');
     }
 }
