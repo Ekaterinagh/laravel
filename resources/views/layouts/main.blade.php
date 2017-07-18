@@ -10,8 +10,6 @@
 <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{asset('css/animate.min.css')}}" rel="stylesheet"> 
-<link href="{{asset('//fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic')}}" rel='stylesheet' type='text/css'>
-<link href="{{asset('//fonts.googleapis.com/css?family=Antic+Slab')}}" rel='stylesheet' type='text/css'>
 @show
 @section('scripts')
 <script src="{{asset('js/jquery-1.11.1.min.js')}}"></script>
@@ -55,61 +53,19 @@
 <!-- start-smoth-scrolling -->
 </head>	
 <body>
-@include('templates.header')
+<div class="{{($curent_page=='/')?'header':'header1'}}">
+		<div class="container">
+			<nav class="navbar navbar-default">
+			@include('templates.menu')
+			</nav>
+		@include('templates.banner')
+		</div>
+</div>
 <!-- header -->
 <!-- banner-bottom -->
 	<div class="banner-bottom">
 		<div class="container">
-			<div class="col-md-6 banner-bottom-left animated wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-				<div class="banner-bottom-left1">
-					
-					
-					@yield('content')
-					
-					
-					<!--
-					<div class="more">
-						<a href="single.html"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>
-					</div>
-					<div class="banner-bottom-left1-pos">
-						<img src="images/4.jpg" alt=" " class="img-responsive" />
-					</div>-->
-				</div>
-			</div>
-			<div class="col-md-6 banner-bottom-right animated wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-				<ul id="sti-menu" class="sti-menu">
-					<li data-hovercolor=red>
-						<a href="single.html">
-							<h4 data-type="mText" class="sti-item">réserver tatouage</h4>
-							<span data-type="icon" class="sti-icon sti-icon-care sti-item"></span>
-						</a>
-					</li>
-					<li data-hovercolor=red>
-						<a href="single.html">
-							<h4 data-type="mText" class="sti-item">résrver piercing</h4>
-							<span data-type="icon" class="sti-icon sti-icon-alternative sti-item"></span>
-						</a>
-					</li>
-				</ul>	
-					<script type="text/javascript" src="js/jquery.iconmenu.js"></script>
-					<script type="text/javascript">
-						$(function() {
-							$('#sti-menu').iconmenu({
-								animMouseenter	: {
-									'mText' : {speed : 400, easing : 'easeOutExpo', delay : 140, dir : -1},
-									'sText' : {speed : 400, easing : 'easeOutExpo', delay : 280, dir : -1},
-									'icon'  : {speed : 400, easing : 'easeOutExpo', delay : 0, dir : -1}
-								},
-								animMouseleave	: {
-									'mText' : {speed : 400, easing : 'easeInExpo', delay : 140, dir : -1},
-									'sText' : {speed : 400, easing : 'easeInExpo', delay : 0, dir : -1},
-									'icon'  : {speed : 400, easing : 'easeInExpo', delay : 280, dir : -1}
-								}
-							});
-						});
-					</script>
-			</div>
-			<div class="clearfix"> </div>
+			@yield('content')	
 		</div>
 	</div>
 <!-- //banner-bottom -->
@@ -251,7 +207,7 @@ services-bottom -->
 		</div>
 	</div>
 	<div class="copy animated wow bounceInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
-		 <p>Copyright © 2016 Tattoo. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+		 <p>Copyright © 2017 American Body Art. All rights reserved | Design by <a href="http://ivanova.com"></a> Ivanova Katsiaryna</p>
 	</div>
 
 </body>

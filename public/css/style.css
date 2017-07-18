@@ -68,7 +68,6 @@ body a:hover{
 }
 .navbar-brand {
     float: left;
-    height: 70px;
     font-size: 1.5em;
     line-height: 37px;
     border: 1px solid #fff;
@@ -2008,7 +2007,6 @@ h2.typoh2{
 }
 @media (max-width:768px){
 	.navbar-brand {
-		height: 58px;
 		font-size: 2.5em;
 		padding: 10px 10px;
 	}

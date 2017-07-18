@@ -17,4 +17,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('chat/{id}','ChatController@getAdd');
 Route::get('/', 'BaseController@getIndex');
+Route::get('/contacts','ContactController@getIndex');
+Route::post('/contacts', 'ContactController@postIndex');
 Route::get('{id}','BaseController@getPage');//nessesary in the end

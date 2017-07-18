@@ -15,7 +15,7 @@ class ViewServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        View::composer('layouts.main','App\Providers\ViewComposers\ConfigViewComposer');
+        View::composer(['layouts.main','templates.menu'],'App\Providers\ViewComposers\ConfigViewComposer');
     }
 
     /**
