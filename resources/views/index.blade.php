@@ -1,19 +1,17 @@
 @extends('layouts.main')
-
 @section('content')
 <div class="col-md-6 banner-bottom-left animated wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-				<div class="banner-bottom-left1">
-<h3>{{$text->name}}</h3>
+	<div class="banner-bottom-left1">
+	<h3>{{$text->name}}</h3>
 	{!!$text->body!!}
-
-					<!--
+	<!--
 					<div class="more">
 						<a href="single.html"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>
 					</div>
 					<div class="banner-bottom-left1-pos">
 						<img src="images/4.jpg" alt=" " class="img-responsive" />
 					</div>-->
-				</div>
+	</div>
 			</div>
 			<div class="col-md-6 banner-bottom-right animated wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="500ms">
 				<ul id="sti-menu" class="sti-menu">

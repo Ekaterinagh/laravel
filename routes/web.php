@@ -18,5 +18,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('chat/{id}','ChatController@getAdd');
 Route::get('/', 'BaseController@getIndex');
 Route::get('/contacts','ContactController@getIndex');
-Route::post('/contacts', 'ContactController@postIndex');
+Route::get('/galleries','GalleryController@getIndex');
 Route::get('{id}','BaseController@getPage');//nessesary in the end
+
+Route::post('/contacts', 'ContactController@postIndex');

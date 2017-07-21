@@ -11,7 +11,10 @@ class Contact extends Model
 		'email',
 		'subject',
 		'message',
-		'salon',
+		'salon_id',
 		'types'
 	];
+	public function salons(){
+		return $this->belongsTo('\App\Salon');
+	}
 }

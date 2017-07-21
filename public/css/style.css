@@ -1063,6 +1063,11 @@ body a:hover{
 	font-size:14px;
 	line-height:1.8em;
 }
+.my-control{
+	width:265px;
+	margin-left:5px;
+	padding:5px 0;
+}
 .mail-bottom{
 	padding:5em 0 0;
 }

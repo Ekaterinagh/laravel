@@ -165,12 +165,15 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+		
 
         /*
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
 		Musonza\Chat\ChatServiceProvider::class,
+		Laraveldaily\Quickadmin\QuickadminServiceProvider::class,
+		
         /*
          * Application Service Providers...
          */

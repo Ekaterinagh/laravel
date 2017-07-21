@@ -15,38 +15,16 @@
 				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--iris">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item
-							<?php
-							if($curent_page== '/'){
-								echo "menu__item--current";
-							}
-							?>">
-							<a href="{{asset('/')}}" 
-								class="menu__link">ACCUEIL</a></li>
-							<li class="menu__item 
-							<?php
-							if($curent_page== '/tatouage'){
-								echo "menu__item--current";
-							}
-							?>"><a href="about.html" class="menu__link">TATOUAGE</a></li>
-							<li class="menu__item
-							<?php
-							if($curent_page== '/piercing'){
-								echo "menu__item--current";
-							}
-							?>"><a href="about.html" class="menu__link">PIERCING</a></li>
-							<li class="menu__item
-							<?php
-							if($curent_page== '/galerie'){
-								echo "menu__item--current";
-							}
-							?>"><a href="short-codes.html" class="menu__link">GALERIE</a></li>
-							<li class="menu__item
-							<?php
-							if($curent_page== '/contacts'){
-								echo "menu__item--current";
-							}
-							?>"><a href="{{asset('contacts')}}" class="menu__link">CONTACTS</a></li>
+							<li class="{{($curent_page== '/')?'menu__item  menu__item--current':'menu__item'}}">
+							<a href="{{asset('/')}}" class="menu__link">ACCUEIL</a></li>
+							<li class="{{($curent_page== '/tatouage')?'menu__item  menu__item--current':'menu__item'}}">
+							<a href="about.html" class="menu__link">TATOUAGE</a></li>
+							<li class="{{($curent_page== '/piercing')?'menu__item  menu__item--current':'menu__item'}}">
+							<a href="about.html" class="menu__link">PIERCING</a></li>
+							<li class="{{($curent_page== '/galerie')?'menu__item  menu__item--current':'menu__item'}}">
+							<a href="{{asset('/galleries')}}" class="menu__link">GALERIE</a></li>
+							<li class="{{($curent_page== '/contacts')?'menu__item  menu__item--current':'menu__item'}}">
+							<a href="{{asset('contacts')}}" class="menu__link">CONTACTS</a></li>
 						</ul>
 					</nav>
 				</div>
