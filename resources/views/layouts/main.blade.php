@@ -30,7 +30,7 @@
 </script>
 <!-- //footer -->
 <!-- for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
+	<script src="{{asset('js/bootstrap.js')}}"></script>
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
 	<script type="text/javascript">
@@ -131,8 +131,9 @@ services-bottom -->
 		</div>
 	</div>
  //primary -->
+
 <!-- footer -->
-	<div class="footer animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">
+<!--	<div class="footer animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">
 		<div class="footer-grids">
 			<div class="container">
 				<div class="col-md-3 footer-grid">
@@ -205,9 +206,9 @@ services-bottom -->
 				<div class="clearfix"></div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<div class="copy animated wow bounceInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
-		 <p>Copyright © 2017 American Body Art. All rights reserved | Design by <a href="http://ivanova.com"></a> Ivanova Katsiaryna</p>
+		 <p>Copyright © 2017 American Body Art. All rights reserved | <a href="http://ivanova.com"></a> Ivanova Katsiaryna</p>
 	</div>
 
 </body>

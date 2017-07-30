@@ -7,10 +7,10 @@
 				@foreach($salons as $salon)
 				<li><div class="banner-info">	
 					<div class="col-md-8 banner-info-left">
-						<h3 value="{{$salon->id}}">{{$salon->name}}</h3>
+						<h3 value="{{$salon->id}}"> American body Art </br> {{$salon->name}}</h3>
 						<p value="{{$salon->id}}">{{$salon->address}} 
 												{{$salon->telephone}}
-												{{$salon->email}}
+							<a href="{{asset('')}}">{{$salon->email}}</a>
 												{{$salon->description}}</p>
 					<ul class="social-networks square spin-icon">
 						<li><a href="#" class="icon-linkedin"></a></li>
