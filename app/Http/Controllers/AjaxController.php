@@ -9,7 +9,8 @@ class AjaxController extends Controller
     public function getGallery(){
         $pic_id=$_GET['id'];
         $picture=Galleries::find($pic_id);
-        echo "<div><p align='center'><img data_id=\"{{$picture->id}}\" class=\"img-thumbnail\" src=\"{{asset('/uploads/thumb/'.$picture->picture)}}\"
-                title=\"{{$picture->name}}\" alt=\"{{$picture->name}}\"/></p></div>";
+        //$pic_prev_id=prev($pic_id);
+        //$picture_prev=Galleries::find($pic_prev_id);
+        return view('templates.ajax')->with('picture',$picture); //->with('picture',$picture_prev);
     }
 }

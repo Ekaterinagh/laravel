@@ -1548,6 +1548,16 @@ h2.typoh2{
 	text-transform: uppercase;
 	font-size: 10px;
 }
+.ordertatto {
+	margin: 40px 0;
+}
+.btn-my{
+	background: red;
+	border-radius: 0;
+}
+.btn-my:hover{
+	background: #1F2027;
+}
 @media (max-width:768px){
 	.grid_5 {
 		padding: 0 0 1em;
@@ -1681,7 +1691,8 @@ h2.typoh2{
 		margin: 2em 0 0.5em;
 	}
 	.header1 {
-		min-height: 445px;
+		min-height: 200px;
+		background-position:bottom;
 	}
 	.banner1-info {
 		padding:7em 0 0;

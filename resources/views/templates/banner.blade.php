@@ -19,7 +19,7 @@
 					</ul>
 					</div>
 					<div class="col-md-4 banner-info-right">
-					<img src="images/salon_innocents.jpg" alt=" " class="img-responsive" />
+						<img src="images/salon_innocents.jpg" alt=" " class="img-responsive" />
 					</div>
 					<div class="clearfix"> </div>
 				</div></li>

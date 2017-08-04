@@ -1,5 +1,18 @@
 @extends('layouts.main')
 @section('content')
+				@foreach($salons as $salon)
+							<div class="col-md-10">
+								<h2 value="{{$salon->id}}"> American body Art {{$salon->name}}</h2>
+								</br>
+								<p value="{{$salon->id}}">Address: {{$salon->address}}</p>
+								<P>Numero de {{$salon->telephone}}</P>
+								<p>Email: <a href="{{asset('')}}">{{$salon->email}}</a></p>
+								<P>{{$salon->description}}</p>
+							</div>
+							<div class="col-md-2">
+								<img src="{{asset('images/salon_innocents.jpg')}}" WIDTH="200" title="salon_innocents" alt="salon_innocents"/>
+							</div>
+				@endforeach
 <div class="col-md-6 mail-left animated wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
 	<h3 class="animated wow rollIn" data-wow-duration="1000ms" data-wow-delay="500ms">Sur la carte</h3>
 	<p>Vouz pouvez voir notre salons sur la carte.</p>

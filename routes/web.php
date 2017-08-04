@@ -20,6 +20,10 @@ Route::get('/', 'BaseController@getIndex');
 Route::get('/contacts','ContactController@getIndex');
 Route::get('/galleries','ServicesController@getIndex');
 Route::get('/gallery/{id}','GalleryController@getIndex');
+Route::get('/styles','StylesController@getIndex');
+Route::get('/order/{id}','StylesController@getOrder');
+Route::get('/piercing','PiercingController@getIndex');
+Route::get('/pierc/{id}','PiercingController@getOrder');
 Route::get('/ajax','AjaxController@getGallery');
 Route::get('{id}','BaseController@getPage');//nessesary in the end
 

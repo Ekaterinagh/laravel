@@ -16,13 +16,13 @@
 			<div class="col-md-6 banner-bottom-right animated wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="500ms">
 				<ul id="sti-menu" class="sti-menu">
 					<li data-hovercolor=red>
-						<a href="single.html">
-							<h4 data-type="mText" class="sti-item">réserver tatouage</h4>
+						<a href="{{asset('styles')}}">
+							<h4 data-type="mText" class="sti-item" >réserver tatouage</h4>
 							<span data-type="icon" class="sti-icon sti-icon-care sti-item"></span>
 						</a>
 					</li>
 					<li data-hovercolor=red>
-						<a href="single.html">
+						<a href="{{asset('piercing')}}">
 							<h4 data-type="mText" class="sti-item">résrver piercing</h4>
 							<span data-type="icon" class="sti-icon sti-icon-alternative sti-item"></span>
 						</a>

@@ -1,4 +1,5 @@
-@include('admin.partials.header')
+@extends('layouts.main')
+@section('content')
 <div style="margin-top: 10%;"></div>
 <div class="container-fluid">
     <div class="row">
@@ -71,4 +72,4 @@
         </div>
     </div>
 </div>
-@include('admin.partials.footer')
+@endsection
